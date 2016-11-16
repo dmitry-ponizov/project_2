@@ -1012,12 +1012,11 @@ label[for="rsecond"]{
 .contact-form{
     width: 75%;
     margin: 0 auto;
-    outline: 1px solid #000;
+    margin-bottom: 103px;
 }
 .contact-wrap{
     width: 100%;
     margin: 0 auto;
-    outline: 1px solid #000;
     text-align: center;
     font-size: 0;
 }
@@ -1025,7 +1024,6 @@ label[for="rsecond"]{
     width: 33.33%;
     display: inline-block;
     vertical-align: top;
-    outline: 1px solid #000;
     margin-top: 64px;
     text-align: left;
 }
@@ -1118,5 +1116,108 @@ input[type="text"]{
 }
 .input-wrap_pl{
     padding-left: 7px;
+}
+textarea{
+    width: 99%;
+    min-height: 263px;
+    resize: none;
+    outline: none;
+    font-family: 'RR';
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 25px;
+    padding-top: 27px;
+    padding-left: 29px;
+    letter-spacing: 0.02em;
+}
+.send-mail{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'RB';
+    font-size: 20px;
+    color: #fff;
+    background: #6400f3;
+    line-height: 73px;
+    margin-top: 22px;
+    letter-spacing: 0.02em;
+}
+.send-mail:hover{
+    background: #9a5df2;
+}
+.top-footer{
+    width: 100%;
+    background: #24262d;
+}
+.exo-footer{
+    width: 74%;
+    margin: 0 auto;
+    border-bottom: 1px dashed #fff;
+    padding-top: 46px;
+    letter-spacing: 0.03em;
+    padding-bottom: 37px;
+}
+.exo-icon__footer{
+    float: left;
+    line-height: 0;
+}
+.exo-text__footer{
+    font-family: 'RR';
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    line-height: 35px;
+}
+.bottom-footer{
+    background: #2e3037;
+}
+.exo-text__bmfooter{
+    font-family: 'RR';
+    font-size: 20px;
+    color: #fff;
+}
+.exo-bmfooter{
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 46px;
+    letter-spacing: 0.03em;
+    padding-bottom: 37px;
+}
+.exo-text__bmfooter{
+    float: left;
+}
+
+.exo-text__bmfooter{
+    outline: 1px solid #fff;
+    line-height: 48px;
+}
+.exo-icon__bmfooter{
+    float: right;
+}
+.exo-icon__bmfooter li{
+    display: inline-block;
+    
+}
+.exo-icon__bmfooter a:after{
+    content: '';
+    display: inline-block;
+    background-image: url(../images/sprite3.png);
+    vertical-align: middle;
+}
+.exo-icon__bmfooter a::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.fb:after{
+    width: 48px;
+    height: 48px;
+    background-position: 0 0;
+}
+.tw:after{
+    width: 48px;
+    height: 48px;
+    background-position: -69px 0;
 }
 /*убрать высоту с кнопок!!!
