@@ -1266,8 +1266,16 @@ textarea{
     height: 48px;
     background-position: -345px 0;
 }
+.button{
+    display: none;
+}
 
 @media(max-width:680px){
+    
+    
+    
+    
+    
 .slider-wrap{
     padding-top: 20px;    
     }
@@ -1289,6 +1297,7 @@ textarea{
 /*  начало меню*/
 
   .button{
+    display: block;
     width: 40px;
     height: 40px;
     border: 1px solid #fff;
