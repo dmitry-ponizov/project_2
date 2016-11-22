@@ -1,5 +1,5 @@
 $('.sl').slick({
-//    autoplay:true,
+    autoplay:true,
 	autoplaySpeed: 4000,
     speed:1000,
 	arrows: false,
@@ -8,7 +8,7 @@ $('.sl').slick({
     vertical:true,
 });
 $('.sl2').slick({
-//    autoplay:true,
+    autoplay:true,
 	autoplaySpeed: 4000,
     speed:1000,
 	arrows: false,
@@ -17,7 +17,7 @@ $('.sl2').slick({
     vertical:true,
 });
 $('.sl3').slick({
-//    autoplay:true,
+    autoplay:true,
 	autoplaySpeed: 4000,
     speed:1000,
 	arrows: false,
@@ -25,7 +25,7 @@ $('.sl3').slick({
 	pauseOnHover: false,
 });
 $('.sl4').slick({
-//    autoplay:true,
+    autoplay:true,
 	autoplaySpeed: 4000,
     speed:1000,
 	arrows: false,
