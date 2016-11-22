@@ -1266,6 +1266,12 @@ textarea{
     height: 48px;
     background-position: -345px 0;
 }
+ .button{
+    display: none;
+  }
+
+
+
 
 @media(max-width:680px){
 .slider-wrap{
@@ -1283,12 +1289,9 @@ textarea{
   .nav-bar__icon img{
     padding-top: 5px;
   }
-  
-  
-  
-/*  начало меню*/
-
+ 
   .button{
+    display: block;
     width: 40px;
     height: 40px;
     border: 1px solid #fff;
@@ -1296,7 +1299,7 @@ textarea{
     background: linear-gradient(to bottom,#fb4efd,#6513ff);
     cursor: pointer;
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
     font-size: 28px;
     text-align: center;
     line-height: 40px;
@@ -1305,19 +1308,22 @@ textarea{
   .button::selection{
     background: transparent;
   }
+   .nav-bar__menu::selection{
+    background: transparent;
+  }
+  .nav-bar__icon img::selection{
+    background: transparent;
+  }
   .nav-bar__menu {
     width: 150px;
     float: right; 
     display: none;
-    margin-right: 20px;
+    margin-right: 30px;
     
     }
-  .button-toggled{
-    background: linear-gradient(to top,#fb4efd,#6513ff);
+  .button:hover{
+     background: linear-gradient(to top,#fb4efd,#6513ff);
   }
-  .show{
-    display: block;
-   }
   .nav-bar__element{
     margin-right: 0; 
     float: none; 
@@ -1402,8 +1408,9 @@ label[for="rsecond"],label[for="rthrid"]{
     margin: 0;
   }
   .exo-wrap img{
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left: 5%;
   }
   .exo-right{
     display: block;
@@ -1416,7 +1423,7 @@ label[for="rsecond"],label[for="rthrid"]{
     float: none;
   }
   .exo-right__h{
-    font-size: 14px;
+    font-size: 4vw;
   }
   .exo-text1,.exo-text2{
     margin-top: 21px;
@@ -1579,4 +1586,325 @@ label[for="rsecond"],label[for="rthrid"]{
     line-height: 20px;
   }
 }
+@media screen and (min-width:681px) and (max-width:912px)
+{
+   .team__face_img{
+    position: static;
     
+  }
+  .team-wrap{
+    width: 100%;
+    padding: 20px;
+  }
+  .team__face_img img{
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #fff;
+  }
+  .team__founder{
+    width: 100%;
+  }
+  .team__founder_text1{
+    margin-top: 10px;
+   text-align: center;
+  }
+  .mod,.team__founder_text{
+    margin-top: 10px;
+    line-height: 28px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 10px;
+  
+  }
+  .team__founder_text2{
+    text-align: center;
+  }
+  .sl3 .slick-dots li button:before{
+    display: none;
+  }
+  .team__founder_button{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 38px;
+    font-size: 15px;
+    display: block;
+  }
+  .team__face_borer{
+    margin-top: 20px;
+    border: none;
+  }
+  .team__face{
+    width: 100%;
+  }
+ .sl4 .slick-dots li button:before{
+    display: none;
+  }
+    .company-logos {
+    padding: 20px;
+}
+  .company-logo1, .company-logo2, .company-logo3, .company-logo4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+   .contact-form{
+    width: 100%;
+    margin-bottom:10px;
+  }
+  .contact-name, .contact-phone, .contact-email{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .input-wrap{
+    margin-top: 10px;
+  }
+  .text1{
+    width: 95%;
+    line-height: 31px;
+  }
+  textarea{
+    width: 95%;
+    margin-left: 10px;
+  }
+  .exo-icon__footer,.exo-text__bmfooter{
+    margin-bottom: 20px;
+  }
+  .exo-icon__bmfooter li{
+    margin-bottom: 20px;
+  }
+  .nav-bar__element{
+    line-height: 20px;
+  }
+}
+@media screen and (min-width:681px) and (max-width:912px)
+{
+   .team__face_img{
+    position: static;
+    
+  }
+  .team-wrap{
+    width: 100%;
+    padding: 20px;
+  }
+  .team__face_img img{
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #fff;
+  }
+  .team__founder{
+    width: 100%;
+  }
+  .team__founder_text1{
+    margin-top: 10px;
+   text-align: center;
+  }
+  .mod,.team__founder_text{
+    margin-top: 10px;
+    line-height: 28px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 10px;
+  
+  }
+  .team__founder_text2{
+    text-align: center;
+  }
+  .sl3 .slick-dots li button:before{
+    display: none;
+  }
+  .team__founder_button{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 38px;
+    font-size: 15px;
+    display: block;
+  }
+  .team__face_borer{
+    margin-top: 20px;
+    border: none;
+  }
+  .team__face{
+    width: 100%;
+  }
+ .sl4 .slick-dots li button:before{
+    display: none;
+  }
+    .company-logos {
+    padding: 20px;
+}
+  .company-logo1, .company-logo2, .company-logo3, .company-logo4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+    .exo-wrap{
+    width: 100%;
+    margin-left: 18%;
+    margin-top: 20px;
+ 
+  }
+  .sl.slick-dotted.slick-slider{
+    padding-bottom: 20px;
+  }
+  .exo-left {
+    float: none;
+  
+  }
+  .exo-right{
+    max-width: 95%;
+    float: none;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+ .sl .slick-dots {
+    right: 10%;
+  }
+  .exo-text1,.exo-text2{
+    width: 65%;
+  }
+  .exo-text1, .exo-text2 {
+    margin-top: 20px;
+  }
+  .sl2 .slick-dots{
+    left:3%;
+  }
+     .sl .slick-dots li button:before{
+      display: none;
+    }
+}
+@media screen and (min-width:681px) and (max-width:1246px) {
+  .nav-bar__icon{
+    margin-left: 20px;
+  }
+  .nav-bar__element,.nav-bar__menu{
+    margin-right: 15px;
+  }
+  .main-content {
+    width: 70%;
+}
+  .main-content__h1 {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  .main-content__h6 {
+    font-size: 16px;
+  }
+  .main-content__button {
+    width: 36%;
+  }
+  .exo-right__h{
+    font-size: 23px;
+  }
+  .main-content__button2 {
+    margin-top: 50px;
+  }
+  .about-us__h3 {
+    font-size: 22px;
+    width: 82%;
+    padding-top: 50px;
+  }
+  .about-us__h6 {
+   width: 82%;
+    line-height: 28px;
+    padding-right: 25%;
+  }
+  .about__supportive{
+    width: 33%;
+  }
+  .about__text-cretive{
+    padding: 0;
+    width: 92%;
+  }
+  label[for="rsecond"] {
+    margin-left: 0;
+}
+label[for="rthrid"] {
+    margin-left: 0px;
+}
+  .about-wrap__radio,.about-icons__wrap{
+    width: 82%;
+  }
+
+  .circle-container {
+    margin-top: 0;
+    float: none;
+}
+  .progress-text {
+    width: 100%;
+    padding: 20px;
+}
+  .progress-text__top,.progress-text__bottom {
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+    .team__face_img{
+    position: static;
+  }
+
+  .team__face_borer,.team__founder_text{
+    margin-top: 20px;
+    padding-right: 5px;
+
+  }
+  .team__founder_text1{
+     margin-top: 20px;
+  }
+  .sl3 .slick-dots{
+    bottom: 2%;
+    left:35%;
+  }
+  .about-us__h6_mod{
+    width: 82%;
+    padding-right: 0;
+  }
+  .contact-form{
+    width: 96%;
+  }
+  .contact-name, .contact-phone, .contact-email{
+    vertical-align: bottom;
+  }
+  .phone__number1, .phone__number2{
+    font-size: 15px;
+  }
+
+}
+  @media screen and (min-width:913px) and (max-width:1246px){
+      .exo-wrap{
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  .exo-right {
+    max-width: 46%;
+    float: right;
+    margin-left: 5px;
+  }
+    .sl .slick-dots li button:before{
+      display: none;
+    }
+    .sl.slick-dotted.slick-slider{
+      padding-bottom: 20px;
+    }
+    .sl2 .slick-dots {
+    left: 3%;
+  }
+  }
+@media screen and (min-width:1246px) and (max-width:1600px){
+  .exo-wrap{
+    margin-left: 10%;
+  }
+  .sl .slick-dots {
+    right: 2%;
+}
+  .sl2 .slick-dots{
+    left: 5%;
+  }
+  .sl3 .slick-dots {
+    bottom: 2%;
+    left: 30%;
+}
