@@ -1266,25 +1266,14 @@ textarea{
     height: 48px;
     background-position: -345px 0;
 }
-<<<<<<< HEAD
  .button{
     display: none;
   }
 
 
 
-=======
-.button{
-    display: none;
-}
->>>>>>> 6db6aad4f3d24cae7eba0709ef60017adbbadc02
 
 @media(max-width:680px){
-    
-    
-    
-    
-    
 .slider-wrap{
     padding-top: 20px;    
     }
