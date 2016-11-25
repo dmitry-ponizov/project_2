@@ -62,6 +62,7 @@
 
 }
 
+
 a{
     text-decoration: none;
 }
@@ -84,8 +85,19 @@ a{
     
 }
 .nav-bar{
-    max-width: 1173px;
+    width: 73%;
     margin: 0 auto;
+  z-index: 9999;
+  position: relative;
+}
+.default{
+  position: fixed;
+  top: 0;
+   background: linear-gradient(110deg,#6513ff,#fb4efd);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb4dfd', endColorstr='#6512ff',GradientType=1 );
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 200px;
 }
 .nav-bar__icon{
     float: left;
@@ -1280,7 +1292,6 @@ textarea{
 .nav-bar {
     max-width: 1173px;
     margin: 0 auto;
-    padding-left: 30px;
     }
 .nav-bar__icon {
    float:none;
@@ -1299,11 +1310,14 @@ textarea{
     background: linear-gradient(to bottom,#fb4efd,#6513ff);
     cursor: pointer;
     float: right;
-    margin-right: 30px;
     font-size: 28px;
     text-align: center;
     line-height: 40px;
     color: #a9a9a9;
+  }
+  .default{
+   visibility: hidden;
+    position: static;
   }
   .button::selection{
     background: transparent;
@@ -1318,8 +1332,6 @@ textarea{
     width: 150px;
     float: right; 
     display: none;
-    margin-right: 30px;
-    
     }
   .button:hover{
      background: linear-gradient(to top,#fb4efd,#6513ff);
@@ -1587,7 +1599,9 @@ label[for="rsecond"],label[for="rthrid"]{
   }
 }
 @media screen and (min-width:681px) and (max-width:912px)
+  
 {
+ 
    .team__face_img{
     position: static;
     
@@ -1678,9 +1692,6 @@ label[for="rsecond"],label[for="rthrid"]{
   .nav-bar__element{
     line-height: 20px;
   }
-}
-@media screen and (min-width:681px) and (max-width:912px)
-{
    .team__face_img{
     position: static;
     
@@ -1778,6 +1789,13 @@ label[for="rsecond"],label[for="rthrid"]{
     }
 }
 @media screen and (min-width:681px) and (max-width:1246px) {
+   .nav-bar{
+    width: 90%;
+  }
+   .default{
+   visibility: hidden;
+    position: static;
+  }
   .nav-bar__icon{
     margin-left: 20px;
   }

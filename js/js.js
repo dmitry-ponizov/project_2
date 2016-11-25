@@ -42,3 +42,25 @@ $(".button").on("click",function(){
 $(".main-content__button_a2").on("click",function(){
   $(".nav-bar__menu").slideToggle(1000);
   });
+
+
+$("#header").removeClass("default");
+		$(window).scroll(function(){
+				if ($(this).scrollTop() > 20) {
+					$("#header").addClass("default").fadeIn('fast');
+		} else {
+					$("#header").removeClass("default").fadeIn('fast');
+		};
+});
+
+
+$('a[href^="#"]').click(function () { 
+			    elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				if($){
+				$('body').animate( { scrollTop: destination }, 2000 );
+				} else {
+			    	$('html').animate( { scrollTop: destination }, 2000 );
+				}
+				return false;
+});
