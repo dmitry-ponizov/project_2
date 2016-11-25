@@ -93,7 +93,7 @@ a{
 .default{
   position: fixed;
   top: 0;
-   background: linear-gradient(110deg,#6513ff,#fb4efd);
+   background: linear-gradient(110deg,#fb4efd,#6513ff);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb4dfd', endColorstr='#6512ff',GradientType=1 );
   width: 100%;
   margin: 0 auto;
